@@ -148,7 +148,7 @@ body {
  }
  
  .header__theme-menu-button:hover {
-   border: 1px solid currentColor;
+   border: 1px solid var(--accent-color-transparent);
  }
  
  .mainTitle {
@@ -287,6 +287,7 @@ body {
   
  .sectionImg {
    gap: 10px;
+   margin-bottom: 40px;
  }
 
  @media (width >= 768px) {
@@ -355,7 +356,6 @@ body {
    justify-items: center;
    height: 100vh;
    min-block-size: 668px;
-   transform: translateY(-10px);  /* теперь не влияет на поток документа. */
  }
  
  @media (width >= 768px) {

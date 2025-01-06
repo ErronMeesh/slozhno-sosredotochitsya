@@ -2,6 +2,7 @@
   
   --main-text-color: #353430;
   --accent-color: #353430;
+  --accent-color-transparent: rgb(50 49 45 / 0.4);
   --title-header-color: #ffc2e6;
   --title-text-color: #353430;
   --page-background-color: #fff1f7;
@@ -16,6 +17,7 @@
   :root {
     --main-text-color: #353430;
     --accent-color: #353430;
+    --accent-color-transparent: rgb(50 49 45 / 0.4);
     --title-header-color: #ffc2e6;
     --title-text-color: #353430;
     --page-background-color: #fff1f7;
